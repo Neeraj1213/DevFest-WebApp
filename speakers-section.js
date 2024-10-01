@@ -100,7 +100,7 @@ const spotlight = [
 		title: 'Spotlight: AI/ML in Modern Enterprises',
 	},
 	{
-		image: 'images/speakers/jeff_ammons.jpeg',
+		image: 'images/speakers/jeff_ammons.png',
 		name: 'Jeff Ammons',
 		description:
 			'Software Architect at Electronic Arts, with decades of experience in software engineering career management',
