@@ -510,7 +510,30 @@ body {
 	text-align: center;
 	padding: 0;
 }
-
+#SpeakersSection #parts{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 24px 0;
+}
+#expert-block {
+	font-family: monospace;
+	font-size: 2vw;
+	margin: 0 20px;
+	cursor: pointer;
+}
+#entre-block {
+	font-family: monospace;
+	font-size: 2vw;
+	margin: 0 20px;
+	cursor: pointer;
+}
+#spotlight-block {
+	font-family: monospace;
+	font-size: 2vw;
+	margin: 0 20px;
+	cursor: pointer;
+}
 #speakers-slides-container {
 	position: relative;
 	/* width: 40vw; */

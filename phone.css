@@ -141,27 +141,34 @@
     }
     .card {
         border-radius: 5px;
-        padding: 4vw;
+        padding: 2vw;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        text-align: left;
+        text-align: center;
         box-sizing: border-box;
         overflow: hidden;
         width: 100%;
     }
-    .card h3 {
+    .card h1 {
         font-size: 5vw;
-        margin-bottom: 0vh;
-        margin-top: 0px;
+        margin-bottom: 2vw;
+        margin-top: 1vw;
         color: white;
     }
     .card p {
         padding-top: 0px;
-        flex-grow: 1;
-        overflow-wrap: break-word;
+        margin-top: 1vw;
+        margin-bottom: 4vw;
         font-size: 3vw;
         color: white;
+    }
+    .card ul{
+        display: none;
+    }
+    .card ul li{
+        font-size: 3vw;
+        visibility: hidden;
     }
     #first{
         background-color: #FF5C5C;
@@ -363,16 +370,11 @@
         margin-bottom: 3vw;
         text-align: center;
     }
-    #ScheduleSection h2{
-        font-family: myFirstFont, sans-serif;
-        margin: 0;
-        font-size: 4vw;
-        color: white;
-        position: absolute;
-        top: 50%;
-        text-align: center;
-        transform: translateY(-50%);
+    #ScheduleSection img{
+        width: 90%;
+        height: auto;
     }
+
     
     #SpeakersSection{
         font-family: myFirstFont, sans-serif;
@@ -389,6 +391,28 @@
     
     #SpeakersSection h1, #SpeakersSection h2{
         font-family: myFirstFont, sans-serif;
+    }
+    #SpeakersSection #parts{
+        display: flex;
+	    justify-content: center;
+	    align-items: center;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    #SpeakersSection #parts #expert-block{
+        margin-top: 0px;
+        font-size: 4vw;
+        margin: 0 1vw;
+    }
+    #SpeakersSection #parts #entre-block{
+        margin-top: 0px;
+        font-size: 4vw;
+        margin: 0 1vw;
+    }
+    #SpeakersSection #parts #spotlight-block{
+        margin-top: 0px;
+        font-size: 4vw;
+        margin: 0 1vw;
     }
     #SpeakersSection pre{
         margin-top: 0px;
